@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VAROO — Moda acessível, estilo sem limite. Catálogo de looks e tendências para todos." />
+  <title>VAROO | Moda & Estilo</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main-content">Ir para o conteúdo principal</a>
+
+  <header role="banner">
+    <nav class="navbar" aria-label="Navegação principal">
+      <div class="container nav-inner">
+        <a href="index.html" class="nav-logo" aria-label="VAROO - Página inicial">VAR<span>OO</span></a>
+        <ul class="nav-links" role="list">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="catalogo.html">Catálogo</a></li>
+          <li><a href="looks.html">Looks</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="nav-cart-btn" aria-label="Carrinho de compras" title="Ver carrinho">
+            🛍
+            <span class="cart-badge" aria-live="polite">0</span>
+          </button>
+          <button class="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <nav id="mobile-menu" class="mobile-menu" aria-label="Menu mobile" aria-hidden="true">
+      <a href="index.html">Home</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="looks.html">Looks</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html">Contato</a>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <section class="hero" aria-label="Destaque principal">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-tag" aria-label="Nova coleção disponível">
+          <span class="hero-tag-dot" aria-hidden="true"></span>
+          <span class="eyebrow">Nova Coleção — Verão 2025</span>
+        </div>
+        <h1 class="display-xl hero-title">
+          Seu estilo,<br>seu <em>jeito</em>.
+        </h1>
+        <p class="hero-desc">
+          Moda acessível para todos os momentos e todos os estilos. Looks completos, tendências reais, preços que cabem no bolso.
+        </p>
+        <div class="hero-actions">
+          <a href="catalogo.html" class="btn btn-primary">Explorar Catálogo</a>
+          <a href="looks.html" class="btn btn-outline">Ver Looks</a>
+        </div>
+        <div class="hero-stats" role="list" aria-label="Números da VAROO">
+          <div role="listitem">
+            <div class="stat-value">+2k</div>
+            <div class="stat-label">Produtos</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-value">R$39</div>
+            <div class="stat-label">A partir de</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-value">48h</div>
+            <div class="stat-label">Entrega</div>
+          </div>
+          <div role="listitem">
+            <div class="stat-value">100%</div>
+            <div class="stat-label">Seu estilo</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" aria-labelledby="trending-title">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow mb-1">Em alta agora</p>
+            <h2 class="display-md" id="trending-title">Mais vendidos</h2>
+          </div>
+          <a href="catalogo.html" class="btn btn-ghost">Ver todos →</a>
+        </div>
+
+        <div class="categories-strip" role="tablist" aria-label="Filtrar por categoria">
+          <button class="cat-pill active" role="tab" data-cat="all" aria-selected="true">Todos</button>
+          <button class="cat-pill" role="tab" data-cat="camisetas" aria-selected="false">Camisetas</button>
+          <button class="cat-pill" role="tab" data-cat="calcas" aria-selected="false">Calças</button>
+          <button class="cat-pill" role="tab" data-cat="vestidos" aria-selected="false">Vestidos</button>
+          <button class="cat-pill" role="tab" data-cat="moletons" aria-selected="false">Moletons</button>
+          <button class="cat-pill" role="tab" data-cat="acessorios" aria-selected="false">Acessórios</button>
+        </div>
+
+        <div class="products-grid" role="list" aria-label="Produtos em destaque">
+
+          <article class="product-card" data-cat="camisetas" role="listitem">
+            <div class="card-img-wrap">
+              <img src="Imagens/Modelo.png" alt="Camiseta Oversized Off-White, tamanhos P ao GG" loading="lazy" />
+              <span class="card-badge" aria-label="Promoção">-30%</span>
+              <button class="card-wishlist" aria-label="Adicionar à lista de desejos" data-id="p1">♡</button>
+            </div>
+            <div class="card-body">
+              <p class="card-category">Camisetas</p>
+              <h3 class="card-name">Camiseta Oversized Off-White</h3>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="card-price-old">R$89</span>R$62
+                </div>
+                <button class="card-add" aria-label="Adicionar Camiseta Oversized ao carrinho">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="calcas" role="listitem">
+            <div class="card-img-wrap">
+              <img src="Imagens/Modelo-2.png" alt="Calça Baggy Jeans Azul Claro" loading="lazy" />
+              <button class="card-wishlist" aria-label="Adicionar à lista de desejos" data-id="p2">♡</button>
+            </div>
+            <div class="card-body">
+              <p class="card-category">Calças</p>
+              <h3 class="card-name">Calça Baggy Jeans Claro</h3>
+              <div class="card-footer">
+                <div class="card-price">R$139</div>
+                <button class="card-add" aria-label="Adicionar Calça Baggy ao carrinho">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="vestidos" role="listitem">
+            <div class="card-img-wrap">
+              <img src="Imagens/Modelo-4.png" alt="Vestido Midi Floral Rosa" loading="lazy" />
+              <span class="card-badge" aria-label="Novo">Novo</span>
+              <button class="card-wishlist" aria-label="Adicionar à lista de desejos" data-id="p3">♡</button>
+            </div>
+            <div class="card-body">
+              <p class="card-category">Vestidos</p>
+              <h3 class="card-name">Vestido Midi Floral</h3>
+              <div class="card-footer">
+                <div class="card-price">R$119</div>
+                <button class="card-add" aria-label="Adicionar Vestido Midi ao carrinho">+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card" data-cat="moletons" role="listitem">
+            <div class="card-img-wrap">
+              <img src="Imagens/Modelo-3.png" alt="Moletom Canguru Preto com capuz" loading="lazy" />
+              <button class="card-wishlist" aria-label="Adicionar à lista de desejos" data-id="p4">♡</button>
+            </div>
+            <div class="card-body">
+              <p class="card-category">Moletons</p>
+              <h3 class="card-name">Moletom Canguru Preto</h3>
+              <div class="card-footer">
+                <div class="card-price">
+                  <span class="card-price-old">R$149</span>R$99
+                </div>
+                <button class="card-add" aria-label="Adicionar Moletom Canguru ao carrinho">+</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" style="background: var(--color-surface); border-top: 1px solid var(--color-border);" aria-labelledby="looks-title">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow mb-1">Inspiração</p>
+            <h2 class="display-md" id="looks-title">Looks da Semana</h2>
+          </div>
+          <a href="looks.html" class="btn btn-ghost">Ver todos →</a>
+        </div>
+        <div class="looks-grid" aria-label="Galeria de looks">
+
+          <article class="look-card look-card--featured" aria-label="Look Streetwear Urbano">
+            <img src="https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=700&h=800&fit=crop" alt="Look streetwear urbano com calça baggy e camiseta oversized" loading="lazy" />
+            <div class="look-overlay">
+              <div class="look-tags">
+                <span class="look-tag">Streetwear</span>
+                <span class="look-tag">Casual</span>
+                <span class="look-tag">Unissex</span>
+              </div>
+              <h3 class="look-title">Urbano & Confortável</h3>
+              <p class="look-items-count">4 peças neste look</p>
+            </div>
+            <button class="look-btn" aria-label="Ver detalhes do look Urbano e Confortável">→</button>
+          </article>
+
+          <article class="look-card" aria-label="Look Casual Chic">
+            <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=400&h=500&fit=crop" alt="Look casual chic com vestido floral e sandálias" loading="lazy" />
+            <div class="look-overlay">
+              <div class="look-tags"><span class="look-tag">Casual</span><span class="look-tag">Feminino</span></div>
+              <h3 class="look-title">Casual Chic</h3>
+              <p class="look-items-count">3 peças neste look</p>
+            </div>
+            <button class="look-btn" aria-label="Ver detalhes do look Casual Chic">→</button>
+          </article>
+
+          <article class="look-card" aria-label="Look Esporte Fino">
+            <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=400&h=500&fit=crop" alt="Look esporte fino com conjunto coordenado" loading="lazy" />
+            <div class="look-overlay">
+              <div class="look-tags"><span class="look-tag">Sport</span><span class="look-tag">Moderno</span></div>
+              <h3 class="look-title">Esporte Fino</h3>
+              <p class="look-items-count">3 peças neste look</p>
+            </div>
+            <button class="look-btn" aria-label="Ver detalhes do look Esporte Fino">→</button>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section" aria-labelledby="newsletter-title">
+      <div class="container">
+        <p class="eyebrow mb-2">Exclusivo</p>
+        <h2 class="display-md" id="newsletter-title">Fique por dentro das<br>últimas tendências</h2>
+        <p class="text-gray mt-2">Receba looks, promoções e novidades direto no seu e-mail.</p>
+        <form id="newsletter-form" class="newsletter-form" novalidate aria-label="Formulário de inscrição na newsletter">
+          <label for="newsletter-email" class="visually-hidden">Seu e-mail</label>
+          <input type="email" id="newsletter-email" class="newsletter-input" placeholder="seu@email.com" autocomplete="email" required aria-required="true" />
+          <button type="submit" class="btn btn-primary">Quero receber</button>
+          <p class="newsletter-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo" aria-label="VAROO - Início">VAR<span>OO</span></a>
+          <p class="footer-desc">Moda acessível, estilo sem limite. Tendências reais para o dia a dia de todo mundo.</p>
+          <nav class="footer-socials" aria-label="Redes sociais">
+            <a href="#" class="social-btn" aria-label="Instagram da VAROO">📷</a>
+            <a href="#" class="social-btn" aria-label="TikTok da VAROO">🎵</a>
+            <a href="#" class="social-btn" aria-label="Pinterest da VAROO">📌</a>
+            <a href="#" class="social-btn" aria-label="YouTube da VAROO">▶</a>
+          </nav>
+        </div>
+        <div class="footer-col">
+          <h5>Loja</h5>
+          <ul>
+            <li><a href="catalogo.html">Catálogo</a></li>
+            <li><a href="looks.html">Looks</a></li>
+            <li><a href="catalogo.html">Novidades</a></li>
+            <li><a href="catalogo.html">Promoções</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Empresa</h5>
+          <ul>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="sobre.html#missao">Nossa missão</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h5>Ajuda</h5>
+          <ul>
+            <li><a href="contato.html">Atendimento</a></li>
+            <li><a href="#">Trocas e devoluções</a></li>
+            <li><a href="#">Guia de tamanhos</a></li>
+            <li><a href="#">Rastrear pedido</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 VAROO. Todos os direitos reservados.</p>
+        <p>Feito com coração para a moda acessível</p>
+      </div>
+    </div>
+  </footer>
+
+  <div class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title" id="look-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="display-md" id="modal-title">Look</h3>
+        <button class="modal-close" aria-label="Fechar">✕</button>
+      </div>
+      <p class="text-gray" id="modal-tags" style="margin-bottom:1.5rem;font-size:0.85rem;"></p>
+      <p style="color:var(--color-gray-lt);font-size:0.9rem;line-height:1.7;margin-bottom:1.5rem;">
+        Este look combina peças versáteis do nosso catálogo para criar um visual completo e acessível. Clique em cada peça para ver detalhes e adicionar ao carrinho.
+      </p>
+      <a href="looks.html" class="btn btn-primary" style="width:100%;justify-content:center;">Ver look completo</a>
+    </div>
+  </div>
+
+  <button class="scroll-top" aria-label="Voltar ao topo da página" title="Voltar ao topo">↑</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -12,14 +12,6 @@ A VAROO é um site de catálogo de moda fast fashion com foco em acessibilidade 
 ### Público-alvo
 Jovens adultos de 18 a 35 anos, de todos os gêneros, que buscam moda acessível e tendências do dia a dia sem gastar muito.
 
-### Paleta de Cores
-| Cor | Hex | Justificativa |
-|-----|-----|--------------|
-| Preto profundo | `#0A0A0A` | Transmite sofisticação e cria contraste forte (fundo) |
-| Rosa/Magenta | `#E91E8C` | Cor de destaque vibrante; remete à energia, juventude e moda |
-| Branco suave | `#FAFAFA` | Legibilidade máxima sobre o fundo escuro |
-| Cinza médio | `#6B6B6B` | Hierarquia visual para textos secundários |
-
 **Psicologia das cores:** O preto confere seriedade e elegância ao fundo, enquanto o rosa magenta como acento cria pontos de atenção estratégicos (CTAs, badges, destaques), transmitindo energia e jovialidade — alinhado ao público fast fashion.
 
 ### Tipografia
@@ -72,19 +64,6 @@ Jovens adultos de 18 a 35 anos, de todos os gêneros, que buscam moda acessível
 - **Informações de contato** (e-mail, WhatsApp, endereço, horário)
 - **FAQ rápido** com accordion nativo HTML (`<details>/<summary>`)
 
-### Arquitetura da Informação
-```
-VAROO/
-├── index.html        ← Home
-├── catalogo.html     ← Catálogo completo com filtros
-├── looks.html        ← Editoriais e looks completos
-├── sobre.html        ← Institucional / Quem somos
-├── contato.html      ← Formulário e informações
-├── css/
-│   └── style.css     ← Estilos customizados (Mobile First)
-└── js/
-    └── main.js       ← Interatividade e validações
-```
 
 Todas as páginas se interligam pela navbar fixa e pelo footer. O link ativo é destacado visualmente (underline rosa) via JavaScript.
 
@@ -129,12 +108,7 @@ Todas as páginas se interligam pela navbar fixa e pelo footer. O link ativo é 
 - Botão "voltar ao topo" com visibilidade condicional
 
 ---
-
-## 4. Integrantes
-
-| Nome | Responsabilidade |
-|------|-----------------|
-| [Denzell Evangelista do Nascimento] | Estrutura HTML, CSS completo e design system, JavaScript, README, testes responsivos e revisão geral
+| [Denzell Evangelista do Nascimento] | Estrutura HTML, CSS completo e design system, JavaScript, README, testes 
 
 ---
 
